@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <title>Yen Chou Liu Portfolio</title>
   </head>
   <body>
@@ -26,7 +32,6 @@
           <li>
             <a href="./resume.html">Resume</a>
           </li>
-          
         </ul>
       </nav>
     </header>
@@ -35,86 +40,58 @@
     <!-- hero -->
     <section class="hero">
       <div class="hero-cta">
-        <h2>Let's Coding</h2>
+        <h2>Let's Code</h2>
       </div>
     </section>
     <!-- end header -->
 
-    <!-- About me section -->
-    <section id="about-me" class="intro">
-      <div class="flex-row">
-        <h2 class="section-title">
-          About me
-        </h2>
-      <div class="meContent">
-        <p>
-          My name is Yen Chou Liu, and I'm currently live in New York.
-        </p>
-      </div>
-      </div>
-    </section>
-    <!-- About me section end -->
+    <div class="container" id="container">
+      <!--About me section start-->
+      <section class="row">
+        <h3 class="col-3 text-left" id="about-me">ABOUT ME</h3>
+        <div id="border-line" class="col-1"></div>
+        <h4 class="col-8 text-center" id="about-me-content">Test</h4>
+      </section>
+      <!--About me section end-->
 
-    <!-- Projects section -->
-    <section id="projects">
-      <div class="flex-row">
-        <h2 class="section-title" style="width:12%">Projects</h2> 
-        <div class="projectContent">
-            <div class="contentDetails">
-                <a href="https://aaronliuxm.github.io/run-buddy/" target="_blank">
-                    <img class= "run-buddy" src="./assets/images/runBuddy.PNG" alt="RUN BUDDY">
-                </a>
-                <div class="bottom-left">
-                    "RUN BUDDY"
-                    <br>
-                    "HEML/CSS"
-                </div>
-            </div>
-
-            <div class="contentDetails">
-                <a href="https://aaronliuxm.github.io/AaronLiu_refactor_challenge1/" target="_blank">
-                    <img class= "horiseon" src="./assets/images/Horiseon.jpg" alt="RUN BUDDY">
-                </a>
-                <div class="bottom-left">
-                    "Horiseon"
-                    <br>
-                    "HEML/CSS"
-                </div>
-            </div>
-
-            <div class="contentDetails">
-                <a href="https://aaronliuxm.github.io/Password-generator/" target="_blank">
-                    <img class= "password-generator" src="./assets/images/password-generator.PNG" alt="RUN BUDDY">
-                </a>
-                <div class="bottom-left">
-                    "Password-generator"
-                    <br>
-                    "HEML/CSS/JS"
-                </div>
-            </div>
+      <!--Project section start-->
+      <section class="row">
+        <h3 class="col-3 text-left">PROJECTS</h3>
+        <div id="border-line" class="col-1"></div>
+        <div class="col-8 flex-wrap justify-content-md-center">
+          <a href="https://aaronliuxm.github.io/run-buddy/" id="project-content"
+            ><img
+              src="./assets/images/runBuddy.PNG"
+              class="img-thumbnail col-7"
+            />
+            <figcaption class="bottom-left">123</figcaption>
+          </a>
+          <a
+            href="https://aaronliuxm.github.io/AaronLiu_refactor_challenge1/"
+            id="project-content"
+            ><img
+              src="./assets/images/Horiseon.jpg"
+              class="img-thumbnail col-4"
+            />
+            <figcaption class="bottom-left">123</figcaption></a
+          >
+          <a
+            href="https://aaronliuxm.github.io/Password-generator/"
+            id="project-content"
+            ><img
+              src="./assets/images/password-generator.PNG"
+              class="img-thumbnail col-4"
+            />
+            <figcaption class="bottom-left">123</figcaption></a
+          >
         </div>
-      </div>
-      
-    </section>
-    <!-- Project section end -->
+      </section>
 
-
-    <!-- Contact me section -->
-    <section id="contact-me" class="footer">
-        <div class="flex-row">
-          <h2 class="section-title">
-            Contact me
-          </h2>
-          <div class="contact-text">
-            Main Street
-            <br>
-            Anytown, NY 11111
-            <br>
-            📞: 646-898-9999
-            <br>
-            📧: <a href="mailto:aaron155658@hotmail.com">aaron155658@hotmail.com</a>
-          <div>
-
-    <!-- Contect me section end -->
+      <section class="row">
+        <h3 class="col-3 text-left" id="contact-me">CONTACT ME</h3>
+        <div id="border-line" class="col-1"></div>
+        <h4 class="col-8 text-center" id="about-me-content">Test</h4>
+      </section>
+    </div>
   </body>
 </html>
